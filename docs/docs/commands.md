@@ -9,7 +9,7 @@ The syntax of the command usage is:
 ##Table Of Contents
 - [Administration](#administration)
 - [Botowners](#botowners)
-- [Crime](#crime)
+- [Bullysism](#crime)
 - [Gambling](#gambling)
 - [General](#general)
 - [System](#system)
@@ -17,11 +17,11 @@ The syntax of the command usage is:
 ### Administration
 Command | Description | Usage
 ---------------- | -------------- | -------
-Addrank|Add a rank.|`$addrank <@role> <cashRequired>`
+Grantrank|Grant a rank.|`$addrank <@role> <cashRequired>`
 Modifycash|Allows you to modify the cash of any member.|`$modifycash <amount> [@member]`
 Removerank|Remove a rank role.|`$removerank <@role>`
-Reset|Resets all user data in your server.|`$reset`
-Resetuser|Reset any member's data.|`$resetuser [@member]`
+Reset|Resets all user data in your server. This cannot be undone.|`$reset`
+Resetuser|Reset any member's data. ^|`$resetuser [@member]`
 
 ### Botowners
 
@@ -35,7 +35,7 @@ Massannounce|Mass announce a message accross all guilds.|`$massannounce <message
 Send|Send a message in any channel.|`$send <channel> <message>`
 Updateuser|Update any user in the DEA database.|`$updateuser <@user> <guild> <update>`
 
-### Crime
+### Bullysism
 Command | Description | Usage
 ---------------- | -------------- | -------
 Bully|Bully any user by changing their nickname.|`$bully <@member> <nickname>`
@@ -52,7 +52,7 @@ Command | Description | Usage
 Command | Description | Usage
 ---------------- | -------------- | -------
 Cash|View the wealth of anyone.|`$cash [@member]`
-Leaderboards|View the richest Drug Traffickers.|`$leaderboards`
+Leaderboards|View the richest people.|`$leaderboards`
 Rank|View the rank of anyone.|`$rank [@member]`
 Ranks|View all ranks in this guild.|`$ranks`
 Transfer|Transfer money to any member.|`$transfer <@member> <transfer>`
